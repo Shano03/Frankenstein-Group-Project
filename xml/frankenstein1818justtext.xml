@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-FRANKENSTEIN;
-OR,
-THE MODERN PROMETHEUS.
-IN THREE VOLUMES.
+<frankenstein>
+<volume><title>FRANKENSTEIN;
+OR, THE
+MODERN PROMETHEUS.</title>
 VOL. I.
 
-FRANKENSTEIN;
-OR, THE
-MODERN PROMETHEUS.
-LETTER I.
+<letter>LETTER I.</letter>
 To Mrs. Saville, England.
 
 St. Petersburgh, Dec. 11th, 17—.
@@ -36,7 +32,7 @@ Your affectionate brother,
 
 R. Walton.
 
-LETTER II.
+<letter>LETTER II.</letter>
 To Mrs. Saville, England.
 
 Archangel, 28th March, 17—.
@@ -59,7 +55,7 @@ Your affectionate brother,
 
 Robert Walton.
 
-LETTER III.
+<letter>LETTER III.</letter>
 To Mrs. Saville, England.
 
 July 7th, 17—.
@@ -78,7 +74,7 @@ Most affectionately yours,
 
 R. W.
 
-LETTER IV.
+<letter>LETTER IV.</letter>
 To Mrs. Saville, England.
 
 August 5th, 17—.
@@ -153,9 +149,7 @@ You may easily conceive that I was much gratified by the offered communication; 
 
 He then told me, that he would commence his narrative the next day when I should be at leisure. This promise drew from me the warmest thanks. I have resolved every night, when I am not engaged, to record, as nearly as possible in his own words, what he has related during the day. If I should be engaged, I will at least make notes. This manuscript will doubtless afford you the greatest pleasure: but to me, who know him, and who hear it from his own lips, with what interest and sympathy shall I read it in some future day!
 
-FRANKENSTEIN;
-OR,
-THE MODERN PROMETHEUS.
+
 CHAPTER I.
 I am by birth a Genevese; and my family is one of the most distinguished of that republic. My ancestors had been for many years counsellors and syndics; and my father had filled several public situations with honour and reputation. He was respected by all who knew him for his integrity and indefatigable attention to public business. He passed his younger days perpetually occupied by the affairs of his country; and it was not until the decline of life that he thought of marrying, and bestowing on the state sons who might carry his virtues and his name down to posterity.
 
@@ -565,9 +559,9 @@ Amiable cousin! such were your thoughts, mild and gentle as your own dear eyes a
 
 END OF VOL. I.
 
-FRANKENSTEIN;
+</volume><volume><title>FRANKENSTEIN;
 OR,
-THE MODERN PROMETHEUS.
+THE MODERN PROMETHEUS.</title>
 IN THREE VOLUMES.
 VOL. II.
 
@@ -579,7 +573,7 @@ Paradise Lost.
 
 London:
 PRINTED FOR
-LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
+LACKINGTON, HUGHES, HARDING, MAVOR, and JONES,
 FINSBURY SQUARE.
 
 1818.
@@ -1021,9 +1015,9 @@ By degrees, however, these feelings became calmed. I entered again into the ever
 
 END OF VOL. II.
 
-FRANKENSTEIN;
+</volume><volume><title>FRANKENSTEIN;
 OR,
-THE MODERN PROMETHEUS.
+THE MODERN PROMETHEUS.</title>
 IN THREE VOLUMES.
 VOL. III.
 
@@ -1035,7 +1029,7 @@ Paradise Lost.
 
 London:
 PRINTED FOR
-LACKINGTON, HUGHES, HARDING, MAVOR, & JONES,
+LACKINGTON, HUGHES, HARDING, MAVOR, and JONES,
 FINSBURY SQUARE.
 
 1818.
@@ -1629,4 +1623,5 @@ I was at first touched by the expressions of his misery; yet when I called to mi
 
 “But soon,” he cried, with sad and solemn enthusiasm, “I shall die, and what I now feel be no longer felt. Soon these burning miseries will be extinct. I shall ascend my funeral pile triumphantly, and exult in the agony of the torturing flames. The light of that conflagration will fade away; my ashes will be swept into the sea by the winds. My spirit will sleep in peace; or if it thinks, it will not surely think thus. Farewell.”
 
-He sprung from the cabin-window, as he said this, upon the ice-raft which lay close to the vessel. He was soon borne away by the waves, and lost in darkness and distance.
+He sprung from the cabin-window, as he said this, upon the ice-raft which lay close to the vessel. He was soon borne away by the waves, and lost in darkness and distance.</volume>
+</frankenstein>

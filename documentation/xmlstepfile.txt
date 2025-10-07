@@ -1,0 +1,5 @@
+1. find 'LETTER.+' replace with '<letter>\0</letter>' to mark letters
+2. removed title before chapter one and after volume 1
+3. find 'FRANKENSTEIN;' replace with '</volume><volume>\0'
+4. manually remove extra end tag and add missing end tag to end
+5. find 'FRANKENSTEIN;.+?\.' replace with '<title>\0</title>'
