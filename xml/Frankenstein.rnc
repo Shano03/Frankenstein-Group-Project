@@ -1,0 +1,14 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start=person1
+person1=element person1 {(letter | ch | text)+}
+letter=element letter {(char | place | analysis_Phrase | analysis_Word | religMent | text)+}
+ch=element ch {(char | place | analysis_Phrase | analysis_Word | religMent | text)+}
+char=element char {charName, text}
+place=element place {placeName, text}
+analysis_Phrase=element analysis_Phrase {theme, text}
+analysis_Word=element analysis_Word {theme, text}
+religMent=element religMent {text}
+charName=attribute charName {"Victor_Frankenstein" | "The_Monster" | "Robert_Walton" | "Elizabeth_Lavenza" | "Henry_Clerval" | "Alphonse_Frankenstein" | "William_Frankenstein" | "Justine_Moritz" | "Beaufort" | "De Lacey" | "Felix" | "Agatha" | "Safie" | "Caroline_Frankenstein" | "Margaret_Saville" | "Waldman" | "Krempe" | "Kirwin"}
+placeName=attribute placeName {text}
+theme=attribute theme {"Guilt" | "Isolation" | "Ambition" | "Madness" | "Secrecy" | "Consequences_Of_Creation" | "Obsession"}
