@@ -9,6 +9,6 @@ place=element place {placeName, text}
 analysis_Phrase=element analysis_Phrase {theme, text}
 analysis_Word=element analysis_Word {theme, text}
 religMent=element religMent {text}
-charName=attribute charName {"Victor_Frankenstein" | "The_Monster" | "Robert_Walton" | "Elizabeth_Lavenza" | "Henry_Clerval" | "Alphonse_Frankenstein" | "William_Frankenstein" | "Justine_Moritz" | "Beaufort" | "De Lacey" | "Felix" | "Agatha" | "Safie" | "Caroline_Frankenstein" | "Margaret_Saville" | "Waldman" | "Krempe" | "Kirwin"}
+charName=attribute charName {"Victor_Frankenstein" | "The_Monster" | "Capt.Robert_Walton" | "Elizabeth_Lavenza" | "Dr.Henry_Clerval" | "Alphonse_Frankenstein" | "William_Frankenstein" | "Justine_Moritz" | "Beaufort" | "De Lacey" | "Felix" | "Agatha" | "Safie" | "Caroline_Frankenstein" | "Margaret_Saville" | "Waldman" | "Krempe" | "Mr.Kirwin"}
 placeName=attribute placeName {text}
 theme=attribute theme {"Guilt" | "Isolation" | "Ambition" | "Madness" | "Secrecy" | "Consequences_Of_Creation" | "Obsession"}
