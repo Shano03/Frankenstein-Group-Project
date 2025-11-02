@@ -1,2 +1,2 @@
 # Frankenstein-Group-Project
-Paige, Jacob, Sri, Addi, Shannon
+Paige, Jacob, Addi, Sri, Shannon
