@@ -1,8 +1,7 @@
 body, html 
 {
-   /*  background: #84B888; dull green background */
+    background: #84B888; /* dull green background */
     background-image: url('images/lightning_background.png');
-    
     background-size: cover; /* Sizes the image to fill the entire container */
     color: #EBFFEB; /* light green text */
     margin: 25px; /* Remove default margin */
