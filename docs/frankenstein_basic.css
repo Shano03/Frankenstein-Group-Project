@@ -3,8 +3,8 @@ body, html
     background: #84B888; /* dull green background */
     background-image: url('images/lightning_background.png');
     background-size: cover; /* Sizes the image to fill the entire container */
-    color: #EBFFEB; /* light green text */
-    margin: 25px; /* Remove default margin */
+    color: #e3f2f7; /* light green text */
+    margin: 50px; /* Remove default margin */
     padding: 0; /* Remove default padding */
     height: 100%; /* Ensure the body and html take up the full height of the page */
 }
