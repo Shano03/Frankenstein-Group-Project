@@ -9,13 +9,13 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
     
-    <xsl:variable name="frankenstein" select="document('frankensteinmergefix.xml')"/>
+    <xsl:variable name="frankenstein" select="document('../xml/frankensteinmergefix.xml')"/>
     <!--whc: global variables will go here-->
     <xsl:variable name="xspacer" select="30"/>
     <xsl:variable name="yspacer" select="15"/>
     
     <xsl:template match="$frankenstein">
-        <xsl:result-document method="xml" indent="yes" href="svg-exercise-3_Phillabaum.html">
+        <xsl:result-document method="xml" indent="yes" href="../docs/svg-exercise-3_Phillabaum.html">
         <html>
             <head><title>Frankenstein Analysis</title></head>
             <body>
