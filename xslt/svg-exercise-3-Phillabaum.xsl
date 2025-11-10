@@ -22,7 +22,7 @@
                 <h1>Number of Analysis Phrases, by Themes</h1>
             <svg viewBox="0 0 1000 650">
                 <g transform="translate(250,10)">
-                    <xsl:for-each-group select="./ch//analysis_Phrase" group-by="@theme">
+                    <xsl:for-each-group select=".//ch//analysis_Phrase" group-by="@theme">
                         
                         <xsl:sort select="count(current-group())" order="descending"/>
                         <!--whc: these are local variables, meaning they only operate on the current group in the for-each-group loop-->
