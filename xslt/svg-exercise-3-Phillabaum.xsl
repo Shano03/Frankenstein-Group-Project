@@ -22,7 +22,7 @@
                 <h1>Number of Analysis Phrases, by Themes</h1>
             <svg viewBox="0 0 1000 650">
                 <g transform="translate(250,10)">
-                    <xsl:for-each-group select="./ch//analysis_Phrase" group-by="@theme">
+                    <xsl:for-each-group select=".//ch//analysis_Phrase" group-by="@theme">
                         
                         <xsl:sort select="count(current-group())" order="descending"/>
                         <!--whc: these are local variables, meaning they only operate on the current group in the for-each-group loop-->
@@ -37,7 +37,7 @@
                         <!--whc: this labels each bar with the index number and name of each person-->
                         <text x="-10" y="{$yspacer * $theme-sequence}" text-anchor="end">
                             <xsl:value-of select="$theme-sequence"/><xsl:text>: </xsl:text>
-                        <xsl:apply-templates select="string()[1]"/></text>
+                            <xsl:apply-templates select="current-grouping-key()"/></text>
                         
                         <!--whc: this places the count number after the end of each bar-->
                         <text x="{$xspacer * $theme-occurrence-count + 10}" y="{$yspacer * $theme-sequence}" text-anchor="right">
@@ -46,7 +46,7 @@
                     </xsl:for-each-group>
                     
                     <!--whc: this creates the vertical reference line: note that it is OUTSIDE the for-loop-->
-                    <line x1="0" y1="0" x2="0" y2="{count(./ch//analysis_Phrase=>distinct-values()) * $yspacer}" stroke="blue" stroke-width="1"/>
+                    <line x1="0" y1="0" x2="0" y2="{count(.//ch//analysis_Phrase=>distinct-values()) * $yspacer}" stroke="blue" stroke-width="1"/>
                     
                 </g>
             </svg>
