@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800"> <!--draws frame-->
+    <desc></desc>
+    <g transform="translate(100,500)">
+        <line x1="200" x2="200" y1="0" y2="-16" stroke="cyan" stroke-width="25"/>
+        <line x1="300" x2="300" y1="0" y2="-10" stroke="cyan" stroke-width="25"/>
+        <line x1="400" x2="400" y1="0" y2="-50" stroke="cyan" stroke-width="25"/>
+        <line x1="500" x2="500" y1="0" y2="-92" stroke="cyan" stroke-width="25"/>
+        <line x1="600" x2="600" y1="0" y2="-71" stroke="cyan" stroke-width="25"/>
+        <line x1="700" x2="700" y1="0" y2="-16" stroke="cyan" stroke-width="25"/>
+        <line x1="800" x2="800" y1="0" y2="-5" stroke="cyan" stroke-width="25"/>
+        <line x1="900" x2="900" y1="0" y2="-5" stroke="cyan" stroke-width="25"/>
+        <!-- characters -->  
+        <text x="200" y="20" text-anchor="middle">Margaret Saville</text>
+        <text x="300" y="20" text-anchor="middle">Robert Walton</text>
+        <text x="400" y="20" text-anchor="middle">Victor Frankenstein</text>
+        <text x="500" y="20" text-anchor="middle">Elizabeth Lavenza</text>
+        <text x="600" y="20" text-anchor="middle">Henry Clerval</text>
+        <text x="700" y="20" text-anchor="middle">Ernest Frankenstein</text>
+        <text x="800" y="20" text-anchor="middle">Alphonse Frankenstein</text>
+        <text x="900" y="20" text-anchor="middle">William Frankenstein</text>
+        <!-- characters -->  
+        
+        <!-- number of mentions
+        <text x="-5" y="-100" text-anchor="end">1</text>
+        <text x="-5" y="-200" text-anchor="end">2</text>
+        <text x="-5" y="-300" text-anchor="end">3</text>
+    number of mentions -->
+        
+        <line x1="0" y1="0" x2="800" y2="0" stroke="blue" stroke-width="3"/>
+        <line x1="0" y1="0" x2="0" y2="-400" stroke="blue" stroke-width="3"/>
+        
+        
+    </g>
+</svg>
+<!-- i couldnt figure out the pulling from xml tthing so i just input the stats manually -->
