@@ -5,12 +5,11 @@
     exclude-result-prefixes="xs math"
     xmlns="http://www.w3.org/1999/xhtml"
     version="3.0">
-    <!--whc: you need the xpath-default-namespace attribute above because your input document this time is in TEI, and the xmlns xhtml attribute/value to create correct xhtml-->
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
     
     <xsl:variable name="frankenstein" select="document('../xml/frankensteinmergefix.xml')"/>
-    <!--whc: global variables will go here-->
+    <!--jp: global variables -->
     <xsl:variable name="xspacer" select="30"/>
     <xsl:variable name="yspacer" select="15"/>
     
@@ -19,38 +18,40 @@
         <html>
             <head><title>Frankenstein Analysis</title></head>
             <body>
-                <h1>Number of Analysis Phrases, by Themes</h1>
-            <svg viewBox="0 0 1000 650">
-                <g transform="translate(250,10)">
+                <h1>Number of Analysis Phrases by Themes</h1>
+            <!--jp: viewBox and transform adjusted so that the graph fits on the user's screen and the vertical line isn't longer than needed-->
+            <svg viewBox="0 0 1000 240">
+                <g transform="translate(220,10)">
                     <xsl:for-each-group select=".//ch//analysis_Phrase" group-by="@theme">
                         
                         <xsl:sort select="count(current-group())" order="descending"/>
-                        <!--whc: these are local variables, meaning they only operate on the current group in the for-each-group loop-->
+                        <!--jp: local variables for the for-each-group-->
                         <xsl:variable name="theme-occurrence-count" select="count(current-group())"/>
                         <xsl:variable name="theme-sequence" select="position()"/>
 
-                        <!--whc: this creates each bar in the bar graph-->
+                        <!--jp: creates each bar in the bar graph-->
                         <line x1="0" x2="{$xspacer * $theme-occurrence-count}" 
-                            y1="{$yspacer * $theme-sequence}" y2="{$yspacer * $theme-sequence}"
-                            stroke-width="10" stroke="red"/>
+                            y1="{($yspacer * $theme-sequence) - 5}" y2="{($yspacer * $theme-sequence) - 5}"
+                            stroke-width="10" stroke="green"/>
                         
-                        <!--whc: this labels each bar with the index number and name of each person-->
+                        <!--jp: this labels each bar with the index number and each theme-->
                         <text x="-10" y="{$yspacer * $theme-sequence}" text-anchor="end">
                             <xsl:value-of select="$theme-sequence"/><xsl:text>: </xsl:text>
                             <xsl:apply-templates select="current-grouping-key()"/></text>
                         
-                        <!--whc: this places the count number after the end of each bar-->
+                        <!--jp: this places the amount of each theme at the end of each bar in the graph-->
                         <text x="{$xspacer * $theme-occurrence-count + 10}" y="{$yspacer * $theme-sequence}" text-anchor="right">
                             <xsl:value-of select="$theme-occurrence-count"/></text>
                         
                     </xsl:for-each-group>
                     
-                    <!--whc: this creates the vertical reference line: note that it is OUTSIDE the for-loop-->
-                    <line x1="0" y1="0" x2="0" y2="{count(.//ch//analysis_Phrase=>distinct-values()) * $yspacer}" stroke="blue" stroke-width="1"/>
+                    <!--jp: this creates the vertical reference line: however I can't figure out why the line is longer than it should be-->
+                    <!--jp: I seemed to fix it by adjusting the viewbox, but I was wondering if I could fix it without adjusting the viewbox-->
+                    <line x1="0" y1="0" x2="0" y2="{count(.//ch//analysis_Phrase) * $yspacer}" stroke="black" stroke-width="1"/>
                     
                 </g>
             </svg>
-                <p>A caption explaining the graph could go here.</p>
+                <p>This graph shows the amount of times a theme popped up in a phrase within the novel.</p>
             </body>
         </html>
         </xsl:result-document>
