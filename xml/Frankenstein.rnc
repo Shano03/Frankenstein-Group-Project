@@ -2,10 +2,11 @@ datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start=frankenstein
 frankenstein=element frankenstein {(volume | text)+}
-volume=element volume {(title | ch | letter | text)+}
+volume=element volume {(title | ch | letter | p | text)+}
 title=element title {text}
-letter=element letter {(char | place | analysis_Phrase | analysis_Word | religMent | text)+}
-ch=element ch {(char | place | analysis_Phrase | analysis_Word | religMent | text)+}
+letter=element letter {(p | text)+}
+ch=element ch {(p | text)+}
+p= element p{(char | place | analysis_Phrase | analysis_Word | religMent | text)+}
 char=element char {charName, text}
 place=element place {placeName, text}
 analysis_Phrase=element analysis_Phrase {(theme | analysis_Word | place | char | text)+}
