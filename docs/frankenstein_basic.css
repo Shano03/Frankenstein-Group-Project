@@ -1,10 +1,10 @@
 /* Set background and text color for the body */
 body, html 
 {
-    background: #000000; /* Fallback light tan background */
+    background: #000000; /* black placeholder background */
     background-image: url('images/lightning_background.png');
     background-size: cover; /* Sizes the image to fill the entire container */
-    color: #ffffff; /* Dark tan text */
+    color: #ffffff; /* white text */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     height: 100%; /* Ensure the body and html take up the full height of the page */
@@ -21,7 +21,7 @@ a
 nav 
 {
     background-color: #ffffff; /* nav bar background color */
-    width: 100%; /* Ensure it spans the full width of the viewport */
+    width: 100%; /* spans the full width of the viewport */
     display: flex; /* Use flexbox to center the nav items */
     justify-content: center; /* Center nav items horizontally */
     align-items: center; /* Align nav items vertically */
