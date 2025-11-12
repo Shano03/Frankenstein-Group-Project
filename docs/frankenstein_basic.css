@@ -1,251 +1,181 @@
-@charset "UTF-8";
-/* CSS Document */
-
-.timeline {
-  text-align: center; 
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+/* Set background and text color for the body */
+body, html 
+{
+    background: #000000; /* Fallback light tan background */
+    background-image: url('images/lightning_background.png');
+    background-size: cover; /* Sizes the image to fill the entire container */
+    color: #ffffff; /* Dark tan text */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Ensure the body and html take up the full height of the page */
 }
 
-img{
-    height: 50px;
-    width: 100px;
-   
+/* Link styling */
+a 
+{
+    text-decoration: underline; /* Removes underline */
+    color: #ffffff; /* Sets text color */
 }
 
-nav{
-	  position: sticky;
-    top: 0;
-    left: 0;
- 	width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    background: #252525;
-    z-index: 2; 
+/* Nav bar styling */
+nav 
+{
+    background-color: #ffffff; /* nav bar background color */
+    width: 100%; /* Ensure it spans the full width of the viewport */
+    display: flex; /* Use flexbox to center the nav items */
+    justify-content: center; /* Center nav items horizontally */
+    align-items: center; /* Align nav items vertically */
 }
 
-a{
-    color: #ffffff;
-    text-decoration: none;
+    /* Ensure nav items are displayed inline to prevent breaking to a new line */
+    nav div 
+    {
+        padding: 12px 30px; /* Padding for nav items */
+        align-items: center; /* Vertically center the content */
+    }
+
+    /* Nav links styling */
+    nav a 
+    {
+        font-size: 20px; /* Set font size for nav links */
+        text-decoration: none; /* No underline */
+        color: black; /* Text color */
+        display: block; /* Ensure it behaves like a block to avoid any alignment issues */
+        text-align: center; /* Ensure text inside each link is centered */
+    }
+
+    /* Hover effect for nav items */
+    nav div:hover 
+    {
+        background-color: #555; /* Change background color on hover */
+        color: black; /* Change text color on hover */
+        text-decoration: underline; /*  Underlines text when hovered over */
+    }
+
+
+/* Header 1 styling */
+h1 
+{
+    font-size: 40px; /* Large font size for main headings */
+    text-align: center; /* Center align the heading */
+    text-decoration: underline; /* Add an underline */
+    margin-top: 40px; /* Add space at the top */
 }
 
-.dropDown {
-    padding: 12px 0px;
+/* Header 2 styling */
+h2 
+{
+    font-size: 40px; /* Large font size for secondary headings */
+    text-align: center; /* Center align the heading */
+    margin-bottom: 5px; /* Reduce space below the header */
+}
+
+/* Header 3 styling */
+h3 
+{
+    font-size: 30px; /* Medium font size for tertiary headings */
+    padding-left: 50px; /* Adds space to the left for all h3 */
+    text-decoration: underline; /* Adds an underline to h3 */
+}
+
+/* Header 4 styling */
+h4 
+{
+    font-size: 20px; /* Smaller font size for subheadings */
+    padding-left: 50px; /* Adds space to the left for all h4 */
+}
+
+/* Paragraph styling */
+p 
+{
+    padding-left: 100px;  /* Adds space to the left for all lines */
+    padding-right: 100px; /* Adds space to the right for all lines */
+    max-width: 1500px;   /* Limits the width of the text for wrapping */
+    font-size: 20px; /* Set font size */
+}
+
+/* List styling */
+ul
+{
+    padding-left: 100px;  /* Adds space to the left for all lines */
+    padding-right: 100px; /* Adds space to the right for all lines */
+    max-width: 1500px;   /* Limits the width of the text for wrapping */
+    font-size: 20px; /* Set font size */
+}
+
+/* Container for the team members */
+.team-container 
+{
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Space between items */
+    margin: 10px auto; /* Reduce top and bottom margin to bring it closer to the header */
+    max-width: 800px; /* Optional: Limit the container width */
+    text-align: left; /* Align text to the left */
+}
+
+/* Individual team member styling */
+.team-member {
+
+    border: 1px solid #ccc; /* Optional: Add a border */
+    padding: 2px 3px; /* Reduced padding for tighter boxes */
+    background-color: #e2cba5; /* Optional: Light background */
+    border-radius: 4px; /* Optional: Rounded corners */
+}
+
+/* Adjust headings for better readability inside team boxes */
+.h3-name 
+{
+    font-size: 1.1rem; /* Slightly smaller font */
+    font-weight: bold;
+}
+
+.h3-details 
+{
+    font-size: 0.9rem; /* Adjust detail font size */
+    color: #744700;
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the dropdown menu */
+.dropdown {
     position: relative;
-    cursor: pointer;
-}
-
-.dropDown > a{
-    padding: 0px 30px;
-    gap: 2px;
-}
-
-.dropDown:hover .menu{
-    opacity: 1;
-    visibility: visible;
-}
-
-.menu{
-    position: absolute;
-    top: 45px;
-    display: grid;
-    background: #252525;
-    opacity: 0;
-    visibility: hidden;
-    transition: .25s;
-}
-
-.menu > a {
-    font-size: 14px;
-    padding: 12px 20px;
-}
-
-.menu > a:hover, .dropDown:hover{
-    color: #ffffff;
-    background:black;
-}
-
-.section-divider{
-    display: block;
-    height: 1px;
-    margin: 0;
-    border: none;
-    background-color: #252525;
-    width: 85%;
-    margin: auto;
-}
-
-.header {
-	text-align: right;
-	background-color: grey;
-	margin: 0 auto;
-}
-
-img.header-img {
-	width: 100%;
-	height: 20em;
-	border: none;
-    display: block;
-    margin: 0 auto;
-}
-
-h1{font-size: 50px}
-h2{font-size: 24px}
-p{font-size: 20px}
-
-/* Body */
-body{
-    background-image: url("images/lightning_background.png");
-	margin: 0;
-	height: 100%; 
-	background-position: center;
-	background-repeat: repeat;
-}
-
-
-
-.row {  
-}
-
-
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-.main {
-  flex: 100%;
-  background-color: white;
-  padding: 20px;
-}
-
-
-.main-index {
-  background-color: white;
-  padding: 20px;
-  margin: auto;
-  width: 60%;
-}
-
-.main-index h1 {
-	text-align: center;
-}
-
-
-.flex-container-index {
-  display: flex;
-  background-color: #252525;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.flex-container-index > div {
-  background-color: #f1f1f1;
-  color: black;
-  width: 100%;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
-}
-
-.subnav{
-    position: sticky;
     display: inline-block;
-    float: right;
-    height: auto;
-    width: 12%;
-    top: 20%;
-    right: 3%;
-    background: #252525;
-    text-align: center;
-    opacity: 0.5;
-    color: #ffffff;
-    border-radius: 6px;
-    transition: opacity 0.3s;
 }
 
-.subnav:hover {
-    opacity: 1;
+/* Style for the dropdown menu content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    /* Move the dropdown below the navbar */
+    top: 100%; /* Places it directly below the dropdown element */
+    left: 50%; /* Start from the center */
+    transform: translateX(-50%); /* Shift content back by half its width to center align */
+    text-align: center; /* Center-align the text */
 }
 
-.tooltip { /* bookmark */
-  position: relative;
-  display: inline-block;
-  width: 50%;
+/* Style for the dropdown menu links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    /* Adjust font size for dropdown links */
+    font-size: 16px; /* Modify as needed */
 }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 50%;
-  background-color: #dfdcdd;
-  color: #ffffff;
-  text-align: left;
-  padding: 6px 6px;
-  border-radius: 6px;
-  float: left;
-
-  position: absolute;
-  z-index: 1;
-  top: 20%;
-  left: 100%;
-
-  opacity: 0;
-  transition: opacity 0.5s;
+/* Style for the dropdown menu links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
 }
 
-.tooltip .tooltipvar {
-  visibility: hidden;
-  width: 50%;
-  background-color: #dfdcdd;
-  color: #ffffff;
-  text-align: left;
-  padding: 6px 6px;
-  border-radius: 6px;
-  float: left;
-
-  position: absolute;
-  z-index: 1;
-  bottom: 20%;
-  left: 100%;
-
-  opacity: 0;
-  transition: opacity 0.5s;
+/* Show the dropdown menu content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-.tooltip:hover .tooltipvar {
-  visibility: visible;
-  opacity: 1;
-}
-
- #left {
-	float: left;
-	display: flex;
-	margin: auto;
-	width: 50%;
-	height: 50%;
-	padding: 1em;
- }
- #right {
-	float: right;
-	display: flex;
-	margin: auto;
-	width: 50%;
-	height: 50%;
-	padding: 1em;
- }
-
- #center {
-	float: right;
-	display: flex;
-	margin: auto;
-	width: 50%;
-	height: 50%;
-	padding: 1em;
- }
