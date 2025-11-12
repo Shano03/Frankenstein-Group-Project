@@ -1,13 +1,14 @@
 /* Set background and text color for the body */
-body, html 
+body 
 {
     background: #000000; /* black placeholder background */
-    background-image: url('images/lightning_background.png');
+    background-image: url('images/lightning_background_withsquare.png');
     background-size: cover; /* Sizes the image to fill the entire container */
     color: #ffffff; /* white text */
-    margin: 0; /* Remove default margin */
+    margin: 2cm; /* Remove default margin */
     padding: 0; /* Remove default padding */
     height: 100%; /* Ensure the body and html take up the full height of the page */
+    
 }
 
 /* Link styling */
@@ -178,4 +179,6 @@ ul
 /* Show the dropdown menu content when hovering over the dropdown */
 .dropdown:hover .dropdown-content {
     display: block;
+    
+    
 }
