@@ -8,7 +8,7 @@
     <xsl:variable name= "frankenstein"
         select= "document('../xml/frankensteinmergefix.xml')"/>
   
-    <xsl:variable name="xspacer" select="30" />
+    <xsl:variable name="xspacer" select="20" />
     <xsl:variable name="yspacer" select="15" />
     
     <xsl:template match="$frankenstein">
@@ -22,22 +22,22 @@
             <svg viewBox= "0 0 1000 1000">
                 <g transform="translate(50,50)">  
                    
-                    <xsl:for-each select="//volume//@theme">
-                        <xsl:variable name="theme-count" select="//volume//@theme" />
-                        <xsl:variable name="ch-number" select="//ch"/>
-                       <!-- <line x1="10" x2="20" y1="{$yspacer* $neg-theme}" y2="{$yspacer*$div-number}" stroke-width="10" stroke="red" />-->
-                        <!--<text x="-25" y="{$yspacer*$div-number}" text-anchor="right"> -->
-                            <!--<xsl:value-of select="$div-number"/> -->
-                        <!--</text>-->
+                    <xsl:for-each select="//ch">
+                        <xsl:variable name="theme-count" select=".//*[@theme]=>count()" />
+                        <xsl:variable name="ch-number" select="position()"/>
+                        <line x1="0" x2="{$xspacer* $theme-count}" y1= "{$yspacer*$ch-number}" y2="{$yspacer*$ch-number}" stroke-width="10" stroke="red" />
+                        <text x="{$xspacer* $theme-count +10}" y="{$yspacer*$ch-number}" text-anchor="right"> 
+                            <xsl:value-of select="$theme-count"/>  
+                        </text>
                         
-                        <text x="{$xspacer * $ch-number +10}" y="0" text-anchor="right">
-                            <xsl:value-of select="//ch"/>
+                        <text x="{-20}" y="{$yspacer* $ch-number}" text-anchor="right">
+                            <xsl:value-of select="$ch-number"/>
                         </text>
                     </xsl:for-each>  
-                    <line x1="0" y1="0" x2="0" y2="{count(//volume)* $yspacer}" stroke="blue" stroke-width="1"/> 
+                    <line x1="0" y1="0" x2="0" y2="{count(//ch)* $yspacer}" stroke="blue" stroke-width="1"/> 
                     <!--vertical axis-->
                     
-                    <line x1="0" y1="0" x2="100" y2="{count(//@theme)*$yspacer}" stroke="black" stroke-width="1"/>  
+                    <line x1="0" y1="0" x2="{count(.//@theme)*$xspacer}" y2="0" stroke="black" stroke-width="1"/>  
                     <!--  horizontal axis--> 
                 </g> 
             </svg>    
