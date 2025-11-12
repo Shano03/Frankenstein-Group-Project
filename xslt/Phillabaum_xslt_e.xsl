@@ -10,23 +10,23 @@
     
     <!-- Declares the variable name as fullText for the frankensteinmergefix.xml document. This makes it so the xml document is loaded into the xslt file. -->
     
-    <xsl:variable name="fullText" select="document('frankensteinmergefix.xml')"/>
+    <xsl:variable name="fullText" select="document('../xml/frankensteinmergefix.xml')"/>
     
     <!-- Serves as the top level rule and starts matching at the root element -->
        
-        <xsl:template match="/">
+    <xsl:template match="$fullText">
             <!-- Displays the output in the chosen html document -->
-            <xsl:result-document method="xhtml" indent="yes" href="exercise-d-output.html">
+            <xsl:result-document method="xhtml" indent="yes" href="../docs/Phillabaum_xslt_e.html">
                 <html>
                     <head>
                         <!-- Serves as the title to the webpage -->
                         <title>Frankenstein</title>
                         <!-- Links the css file to the the xslt file so the output shows the colors chosen for the elements below -->
-                        <link rel="stylesheet" type="text/css" href="Phillabaum_xslt_e.css"/>
+                        <link rel="stylesheet" type="text/css" href="../docs/Phillabaum_xslt_e.css"/>
                     </head>
                     <body>
                         <!-- For each volume within the $fullText variable the letter and ch elements should be surrounded by p tags for spacing within the output between the letters and chapters -->
-                        <xsl:for-each select="$fullText//volume">
+                        <xsl:for-each select="//volume">
                             <xsl:if test="//letter">
                                 <p><xsl:apply-templates/></p>
                             </xsl:if>
@@ -41,12 +41,81 @@
     
     <!-- Template rules to color code the elements analysis_Word, analysis_Phrase, place, and char for the full text page of our webpage -->
     
-    <xsl:template match="analysis_Word">
+    <!--<xsl:template match="analysis_Word">
         <span class="analysis_Word"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="analysis_Phrase">
         <span class="analysis_Phrase"><xsl:apply-templates/></span>
+    </xsl:template>-->
+    
+    
+    <xsl:template match="*[@theme='Guilt']">
+        <span class="Guilt"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Isolation']">
+        <span class="Isolation"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Ambition']">
+        <span class="Ambition"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Madness']">
+        <span class="Madness"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Worry']">
+        <span class="Worry"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Madness']">
+        <span class="Madness"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Secrecy']">
+        <span class="Secrecy"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Creation_Of_Creation']">
+        <span class="Consequences_Of_Creation"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Obsession']">
+        <span class="Obsession"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Worry']">
+        <span class="Worry"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Self_Disgust']">
+        <span class="Self_Disgust"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Rage']">
+        <span class="Rage"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Misery']">
+        <span class="Misery"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Illness']">
+        <span class="Illness"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Death']">
+        <span class="Death"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Depression']">
+        <span class="Depression"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="*[@theme='Fear']">
+        <span class="Fear"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="place">

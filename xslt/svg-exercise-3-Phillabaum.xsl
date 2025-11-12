@@ -14,15 +14,15 @@
     <xsl:variable name="yspacer" select="15"/>
     
     <xsl:template match="$frankenstein">
-        <xsl:result-document method="xml" indent="yes" href="../docs/svg-exercise-3_Phillabaum.html">
+        <xsl:result-document method="html" indent="yes" href="../docs/svg-exercise-3_Phillabaum.html">
         <html>
             <head><title>Frankenstein Analysis</title></head>
             <body>
                
                 <h1>Number of Analysis Phrases by Themes</h1>
             <!--jp: viewBox and transform adjusted so that the graph fits on the user's screen and the vertical line isn't longer than needed-->
-            <svg viewBox="0 0 1000 240">
-                <g transform="translate(220,10)">
+            <svg viewBox="0 0 1100 240">
+                <g transform="translate(210,10)">
 
                     <xsl:for-each-group select=".//ch//analysis_Phrase" group-by="@theme">
                         

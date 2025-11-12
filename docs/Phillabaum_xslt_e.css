@@ -1,9 +1,62 @@
-.analysis_Word{
-    color: #0FE97A;
+
+.Guilt{
+    color: #340058;
 }
 
-.analysis_Phrase{
-    color: #FF1111;
+.Isolation{
+    color: #49EB96;
+}
+
+.Ambition{
+    color: #CF0131;
+}
+
+.Madness{
+    color: #FC0101;
+}
+
+.Secrecy{
+    color: #717070;
+}
+
+.Consequences_Of_Creation{
+    color: #007A1A;
+}
+
+.Obsession{
+    color: #FE9900;
+}
+
+.Worry{
+    color: #03239A;
+}
+
+.Self_Disgust{
+    color: #03239A;
+}
+
+.Rage{
+    color: #FF0707;
+}
+
+.Misery{
+    color: #07006C;
+}
+
+.Illness{
+    color: #006C1E;
+}
+
+.Death{
+    color: #000000;
+}
+
+.Depression{
+    color: #5F597D;
+}
+
+.Fear{
+    color: #B963A3;
 }
 
 .place{
