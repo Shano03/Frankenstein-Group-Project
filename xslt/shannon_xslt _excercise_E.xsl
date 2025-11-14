@@ -10,7 +10,7 @@
             
         
         <xsl:template match="$frankensteinproject">
-            <xsl:result-document method="xhtml" indent="yes" href="frankensteinanalysisphrase.html">
+            <xsl:result-document method="xhtml" indent="yes" href="frankensteinanalysisphraseNEW.html">
             <html>
             <head><title>The Mental Deterioration of Victor Frankenstein</title> <!--title of page-->
                <link rel="stylesheet" type="text/css" href="frankenstein_basic.css"/><!--linked to css style sheet-->
