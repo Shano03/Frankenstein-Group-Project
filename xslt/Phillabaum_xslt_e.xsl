@@ -26,11 +26,17 @@
                     </head>
                     <body>
                         <!-- For each volume within the $fullText variable the letter and ch elements should be surrounded by p tags for spacing within the output between the letters and chapters -->
-                        <xsl:for-each select="//volume">
-                            <xsl:if test="//letter">
-                                <p><xsl:apply-templates/></p>
+                        <xsl:for-each select=".//volume">
+                            <xsl:if test="./volumeName">
+                                <h1><xsl:apply-templates/></h1>
                             </xsl:if>
-                            <xsl:if test="//ch">
+                            <xsl:if test="./letterName">
+                                <h2><xsl:apply-templates/></h2>
+                            </xsl:if>
+                            <xsl:if test="./chapterName">
+                                <h2><xsl:apply-templates/></h2>
+                            </xsl:if>
+                            <xsl:if test="./p">
                                 <p><xsl:apply-templates/></p>
                             </xsl:if>
                         </xsl:for-each>
@@ -38,6 +44,11 @@
                 </html>
             </xsl:result-document>
         </xsl:template>
+    
+    
+    <xsl:template match="p"> 
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
     
     <!-- Template rules to color code the elements analysis_Word, analysis_Phrase, place, and char for the full text page of our webpage -->
     
