@@ -1,68 +1,68 @@
 
 .Guilt{
-    color: #340058;
+    color: #340058; /* dark purple */
 }
 
 .Isolation{
-    color: #49EB96;
+    color: #49EB96; /* light teal */
 }
 
 .Ambition{
-    color: #CF0131;
+    color: #CF0131; /* magenta */
 }
 
 .Madness{
-    color: #FC0101;
+    color: #790B0B; /* dark red */
 }
 
 .Secrecy{
-    color: #717070;
+    color: #717070; /* gray */
 }
 
 .Consequences_Of_Creation{
-    color: #007A1A;
+    color: #007A1A; /* dark green */
 }
 
 .Obsession{
-    color: #FE9900;
+    color: #FE9900; /* light orange */
 }
 
 .Worry{
-    color: #03239A;
+    color: #03239A; /* blue */
 }
 
 .Self_Disgust{
-    color: #03239A;
+    color: #86B220; /* yellow-green */
 }
 
 .Rage{
-    color: #FF0707;
+    color: #FF0303; /* red */
 }
 
 .Misery{
-    color: #07006C;
+    color: #07006C; /* dark blue */
 }
 
 .Illness{
-    color: #006C1E;
+    color: #006C1E; /* dark green */
 }
 
 .Death{
-    color: #000000;
+    color: #000000; /* black */
 }
 
 .Depression{
-    color: #5F597D;
+    color: #5F597D; /* pale blue */
 }
 
 .Fear{
-    color: #B963A3;
+    color: #B963A3; /* light pink */
 }
 
 .place{
-    color: #EAE010;
+    color: #EAE010; /* yellow */
 }
 
 .char{
-    color: #3411FF;
+    color: #3411FF; /* bright blue */
 }

@@ -22,29 +22,35 @@
                         <!-- Serves as the title to the webpage -->
                         <title>Frankenstein</title>
                         <!-- Links the css file to the the xslt file so the output shows the colors chosen for the elements below -->
+                        <a href="index.html">Back to Home Page</a>
                         <link rel="stylesheet" type="text/css" href="../docs/Phillabaum_xslt_e.css"/>
                     </head>
                     <body>
                         <!-- For each volume within the $fullText variable the letter and ch elements should be surrounded by p tags for spacing within the output between the letters and chapters -->
                         <xsl:for-each select=".//volume">
-                            <xsl:if test="./volumeName">
-                                <h1><xsl:apply-templates/></h1>
-                            </xsl:if>
-                            <xsl:if test="./letterName">
-                                <h2><xsl:apply-templates/></h2>
-                            </xsl:if>
-                            <xsl:if test="./chapterName">
-                                <h2><xsl:apply-templates/></h2>
-                            </xsl:if>
-                            <xsl:if test="./p">
-                                <p><xsl:apply-templates/></p>
-                            </xsl:if>
+                            <xsl:apply-templates/>
                         </xsl:for-each>
                     </body>
                 </html>
             </xsl:result-document>
         </xsl:template>
     
+    
+    <xsl:template match="volumeName"> 
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="title"> 
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="chapterName"> 
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
+    
+    <xsl:template match="letterName"> 
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
     
     <xsl:template match="p"> 
         <p><xsl:apply-templates/></p>
@@ -71,14 +77,6 @@
     
     <xsl:template match="*[@theme='Ambition']">
         <span class="Ambition"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="*[@theme='Madness']">
-        <span class="Madness"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="*[@theme='Worry']">
-        <span class="Worry"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="*[@theme='Madness']">
