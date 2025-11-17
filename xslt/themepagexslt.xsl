@@ -11,7 +11,7 @@
             <html>
                 <head>
                     <title>Theme of Guilt</title>
-                    <!--<link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>-->
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                       <h1>Occurrences of Theme</h1> 
@@ -34,7 +34,7 @@
             <html>
                 <head>
                     <title>Theme of Isolation</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>  
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -58,7 +58,7 @@
             <html>
                 <head>
                     <title>Theme of Ambition</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -81,7 +81,7 @@
             <html>
                 <head>
                     <title>Theme of Madness</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -104,7 +104,7 @@
             <html>
                 <head>
                     <title>Theme of Secrecy</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/> 
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -128,7 +128,7 @@
             <html>
                 <head>
                     <title>Theme of Consequences of Creation</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -151,7 +151,7 @@
             <html>
                 <head>
                     <title>Theme of Obsession</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>  
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -176,7 +176,7 @@
             <html>
                 <head>
                     <title>Theme of Worry</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -199,7 +199,7 @@
             <html>
                 <head>
                     <title>Theme of Self Disgust</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -223,7 +223,7 @@
             <html>
                 <head>
                     <title>Theme of Rage</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -247,7 +247,7 @@
             <html>
                 <head>
                     <title>Theme of Misery</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -271,7 +271,7 @@
             <html>
                 <head>
                     <title>Theme of Illness</title>
-                    
+                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/> 
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
