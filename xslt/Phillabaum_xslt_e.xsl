@@ -22,22 +22,78 @@
                         <!-- Serves as the title to the webpage -->
                         <title>Frankenstein</title>
                         <!-- Links the css file to the the xslt file so the output shows the colors chosen for the elements below -->
+                        <a href="index.html">Back to Home Page</a>
                         <link rel="stylesheet" type="text/css" href="../docs/Phillabaum_xslt_e.css"/>
+                        <svg width="4000" height="200">
+                            <text x="650" y="200" font-size="30" text-anchor="middle">Color Guide for Themes</text>
+                            <circle cx="50" cy="100" r="20" fill="#340058" stroke="black"/>
+                            <text x="50" y="140" font-size="15" text-anchor="middle">Guilt</text>
+                            <circle cx="110" cy="100" r="20" fill="#49EB96" stroke="black"/>
+                            <text x="110" y="140" font-size="15" text-anchor="middle">Isolation</text>
+                            <circle cx="170" cy="100" r="20" fill="#CF0131" stroke="black"/>
+                            <text x="170" y="140" font-size="15" text-anchor="middle">Ambition</text>
+                            <circle cx="230" cy="100" r="20" fill="#790B0B" stroke="black"/>
+                            <text x="230" y="140" font-size="15" text-anchor="middle">Madness</text>
+                            <circle cx="290" cy="100" r="20" fill="#717070" stroke="black"/>
+                            <text x="290" y="140" font-size="15" text-anchor="middle">Secrecy</text>
+                            <circle cx="400" cy="100" r="20" fill="#007A1A" stroke="black"/>
+                            <text x="400" y="140" font-size="15" text-anchor="middle">Consequences Of Creation</text>
+                            <circle cx="520" cy="100" r="20" fill="#FE9900" stroke="black"/>
+                            <text x="520" y="140" font-size="15" text-anchor="middle">Obsession</text>
+                            <circle cx="580" cy="100" r="20" fill="#059FFF" stroke="black"/>
+                            <text x="580" y="140" font-size="15" text-anchor="middle">Worry</text>
+                            <circle cx="640" cy="100" r="20" fill="#86B220" stroke="black"/>
+                            <text x="640" y="140" font-size="15" text-anchor="middle">Self Disgust</text>
+                            <circle cx="700" cy="100" r="20" fill="#FF0303" stroke="black"/>
+                            <text x="700" y="140" font-size="15" text-anchor="middle">Rage</text>
+                            <circle cx="760" cy="100" r="20" fill="#07006C" stroke="black"/>
+                            <text x="760" y="140" font-size="15" text-anchor="middle">Misery</text>
+                            <circle cx="820" cy="100" r="20" fill="#006C1E" stroke="black"/>
+                            <text x="820" y="140" font-size="15" text-anchor="middle">Illness</text>
+                            <circle cx="880" cy="100" r="20" fill="#472201" stroke="black"/>
+                            <text x="880" y="140" font-size="15" text-anchor="middle">Death</text>
+                            <circle cx="940" cy="100" r="20" fill="#5F597D" stroke="black"/>
+                            <text x="940" y="140" font-size="15" text-anchor="middle">Depression</text>
+                            <circle cx="1000" cy="100" r="20" fill="#B963A3" stroke="black"/>
+                            <text x="1000" y="140" font-size="15" text-anchor="middle">Fear</text>
+                            <circle cx="1050" cy="100" r="20" fill="#EAE010" stroke="black"/>
+                            <text x="1050" y="140" font-size="15" text-anchor="middle">Places</text>
+                            <circle cx="1110" cy="100" r="20" fill="#3411FF" stroke="black"/>
+                            <text x="1110" y="140" font-size="15" text-anchor="middle">Characters</text>
+                            
+                            
+                        </svg>
                     </head>
                     <body>
                         <!-- For each volume within the $fullText variable the letter and ch elements should be surrounded by p tags for spacing within the output between the letters and chapters -->
-                        <xsl:for-each select="//volume">
-                            <xsl:if test="//letter">
-                                <p><xsl:apply-templates/></p>
-                            </xsl:if>
-                            <xsl:if test="//ch">
-                                <p><xsl:apply-templates/></p>
-                            </xsl:if>
+                        <xsl:for-each select=".//volume">
+                            <xsl:apply-templates/>
                         </xsl:for-each>
                     </body>
                 </html>
             </xsl:result-document>
         </xsl:template>
+    
+    
+    <xsl:template match="volumeName"> 
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="title"> 
+        <h1><xsl:apply-templates/></h1>
+    </xsl:template>
+    
+    <xsl:template match="chapterName"> 
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
+    
+    <xsl:template match="letterName"> 
+        <h2><xsl:apply-templates/></h2>
+    </xsl:template>
+    
+    <xsl:template match="p"> 
+        <p><xsl:apply-templates/></p>
+    </xsl:template>
     
     <!-- Template rules to color code the elements analysis_Word, analysis_Phrase, place, and char for the full text page of our webpage -->
     
@@ -60,14 +116,6 @@
     
     <xsl:template match="*[@theme='Ambition']">
         <span class="Ambition"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="*[@theme='Madness']">
-        <span class="Madness"><xsl:apply-templates/></span>
-    </xsl:template>
-    
-    <xsl:template match="*[@theme='Worry']">
-        <span class="Worry"><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="*[@theme='Madness']">

@@ -19,7 +19,7 @@
                 <h2>The Mental Deterioration of Victor Frankenstein</h2> <!-- header -->
                 <table>
                     <tr><td>Theme</td><td>Theme Frequency</td></tr> <!-- categories of the table -->
-                    <xsl:for-each-group select="//analysis_Phrase" group-by="@theme"> <!-- collecting theme data from xml -->
+                    <xsl:for-each-group select="//*[@theme]" group-by="@theme"> <!-- collecting theme data from xml -->
                         <xsl:sort select="count(current-group())" order="descending"/> 
                         <tr>
                             <td><xsl:value-of select="@theme"/></td><td><xsl:value-of select="count(current-group())"/></td><!-- counting number of occurances of themes -->
@@ -32,7 +32,7 @@
                 <h2>In Volume <xsl:value-of select="position()"/></h2>
                 <table>
                     <tr><td>Theme</td><td>Theme Frequency</td></tr> <!-- categories of the table -->
-                    <xsl:for-each-group select=".//analysis_Phrase" group-by="@theme">
+                    <xsl:for-each-group select=".//*[@theme]" group-by="@theme">
                         <xsl:sort select="count(current-group())" order="descending"/>
                         <tr>
                             <td><xsl:value-of select="@theme"/></td><td><xsl:value-of select="count(current-group())"/></td>
