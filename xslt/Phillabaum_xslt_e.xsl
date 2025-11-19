@@ -16,14 +16,14 @@
        
     <xsl:template match="$fullText">
             <!-- Displays the output in the chosen html document -->
-            <xsl:result-document method="xhtml" indent="yes" href="../docs/Phillabaum_xslt_e.html">
+            <xsl:result-document method="xhtml" indent="yes" href="Phillabaum_xslt_e.html">
                 <html>
                     <head>
                         <!-- Serves as the title to the webpage -->
                         <title>Frankenstein</title>
                         <!-- Links the css file to the the xslt file so the output shows the colors chosen for the elements below -->
                         <a href="index.html">Back to Home Page</a>
-                        <link rel="stylesheet" type="text/css" href="../docs/Phillabaum_xslt_e.css"/>
+                        <link rel="stylesheet" type="text/css" href="Phillabaum_xslt_e.css"/>
                         <svg width="4000" height="200">
                             <text x="650" y="200" font-size="30" text-anchor="middle">Color Guide for Themes</text>
                             <circle cx="50" cy="100" r="20" fill="#340058" stroke="black"/>
