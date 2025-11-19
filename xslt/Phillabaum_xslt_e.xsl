@@ -16,7 +16,7 @@
        
     <xsl:template match="$fullText">
             <!-- Displays the output in the chosen html document -->
-            <xsl:result-document method="xhtml" indent="yes" href="../docs/Phillabaum_xslt_e.html">
+            <xsl:result-document method="xhtml" indent="yes" href="Phillabaum_xslt_e.html">
                 <html>
                     <head>
                         <!-- Serves as the title to the webpage -->
@@ -25,7 +25,7 @@
                         <a href="index.html">Back to Home Page</a>
                         <link rel="stylesheet" type="text/css" href="Phillabaum_xslt_e.css"/>
                         <svg width="4000" height="200">
-                            <text x="650" y="200" font-size="30" text-anchor="middle">Color Guide for Theme</text>
+                            <text x="650" y="200" font-size="30" text-anchor="middle">Color Guide for Themes</text>
                             <circle cx="50" cy="100" r="20" fill="#340058" stroke="black"/>
                             <text x="50" y="140" font-size="15" text-anchor="middle">Guilt</text>
                             <circle cx="110" cy="100" r="20" fill="#49EB96" stroke="black"/>
