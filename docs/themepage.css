@@ -8,7 +8,7 @@ body
     margin-right: 2cm; /* Remove default margin */
     margin-left: 2cm; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    height: 100%; /* Ensure the body and html take up the full height of the page */
+    height: 100px; /* Ensure the body and html take up the full height of the page */
     
 }
 
