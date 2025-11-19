@@ -5,10 +5,10 @@ body
     background-image: url('images/lightning_background_withsquare.png');
     background-size: cover; /* Sizes the image to fill the entire container */
     color: #ffffff; /* white text */
-    margin-right: 3cm; /* Remove default margin */
-    margin-left: 5cm; /* Remove default margin */
+    margin-right: 2cm; /* Remove default margin */
+    margin-left: 2cm; /* Remove default margin */
     padding: 0; /* Remove default padding */
-    height: 1000px; /* Ensure the body and html take up the full height of the page */
+    height: 100%; /* Ensure the body and html take up the full height of the page */
     
 }
 
