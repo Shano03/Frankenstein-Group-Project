@@ -16,7 +16,7 @@
        
     <xsl:template match="$fullText">
             <!-- Displays the output in the chosen html document -->
-            <xsl:result-document method="xhtml" indent="yes" href="Phillabaum_xslt_e.html">
+            <xsl:result-document method="xhtml" indent="yes" href="../docs/Phillabaum_xslt_e.html">
                 <html>
                     <head>
                         <!-- Serves as the title to the webpage -->
