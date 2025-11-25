@@ -141,6 +141,8 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>The creation of the monster leads Victor Frankenstein to see the many consequences of his creation. Destruction, tragedy, pain, death, and regret are all things both the monster and Victor experience. The monster is isolated from society and forced to live a sad and lonely life, while Victor has to face the loss of loved ones and the regret of creating the monster.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Consequences_Of_Creation']">
@@ -164,6 +166,8 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>  
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor Frankenstein had an obsession with creating life, which led to destruction and consequences for Victor and the monster. Victor's obsession caused him to neglect his own health and neglect the creation once it was made. After the monster murdered Victor's loved ones, the obsession shifts to revenge. Victor's obsession leads to his own downfall. The monster also faces obsession. The monster is desperate to fit in with society, but after he realizes that isn't possible, his obsession changes to revenge against Victor.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Obsession']">
@@ -189,6 +193,8 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor Frankenstein worries about the damage that his creation will do. Victor also experiences increasing guilt and fear over the consequences of his creation. This constant and high anxiety leads to Victor's mental decline throughout the novel. </p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Worry']">
@@ -208,10 +214,12 @@
         <xsl:result-document method="xhtml" indent="yes" href="../docs/frankenstein_xslt_selfDisgust.html">
             <html>
                 <head>
-                    <title>Theme of Self Disgust</title>
+                    <title>Theme of Self-Disgust</title>
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>The monster and Victor both experience self-disgust throughout the novel. The monster is disgusted by the way he looks, since he is never accepted into society. Victor feels disgust and shame about the creation he made and the consequences that have come from it.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Self_Disgust']">
@@ -236,6 +244,8 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Both the monster and Victor seek revenge fueled by rage. The monster feels rage due to his constant isolation and seeks revenge on the person who created him. Victor seeks revenge on the monster due to the rage he felt when the monster murdered hsi family. </p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Rage']">
@@ -260,6 +270,8 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor experiences misery after losing his loved ones and abandoning his creation. He seeks revenge as a way to end his suffering, but seeking revenge only causes more tragedy. The monster faces misery after he is repeatedly rejected from society after being abandoned by his creator. He was not created evil, but the misery that he experienced caused him to be more violent, which led to more misery for Victor. </p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Misery']">
@@ -284,6 +296,8 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/> 
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>The monster experienced illness when he was trying to figure out how to survive on his own. Victor Frankenstein experienced mental illness throughout the novel including anxiety and depression.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Illness']">
