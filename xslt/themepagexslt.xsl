@@ -11,10 +11,12 @@
             <html>
                 <head>
                     <title>Theme of Guilt</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
-                      <h1>Occurrences of Theme</h1> 
+                    <h1>Theme Analysis</h1>
+                    <p>Frankenstein experiences great bouts of guilt and remorse throughout the novel. He feels responsible for the death of his little brother William after the creature kills him, and feels further guilt when Justine, Henry, Elizabeth, and his father die directly or indirectly by the hands of the creature. Despite the guilt he feels, he still does not take full responsibly for their deaths, and goes back and forth between blaming himself and blaming the creature.</p>
+                    <h1>Occurrences of Theme</h1> 
                         
                         <xsl:for-each select= "//analysis_Phrase[@theme= 'Guilt']">
                      <p><xsl:value-of select= "./text()"/></p>
@@ -34,9 +36,11 @@
             <html>
                 <head>
                     <title>Theme of Isolation</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>  
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>  
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor Frankenstein isolates himself while obsessing over making his creation. He rarely writes to his family while at Ingolstadt, which worries them. He spends several days and nights observing corpses decay as research for his project. He neglects his own health and wellbeing in pursuit of making this perfect creation, which leads to his declining mental and physical health.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Isolation']">
@@ -58,9 +62,11 @@
             <html>
                 <head>
                     <title>Theme of Ambition</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor's ambition is his fatal flaw. His drive and obsession with making new life and having control over death leads to his downfall and death, as well as the deaths of his family and friends. Frankenstein uses his story as a cautionary tale to warn Captain Robert Walton about the dangers of ambition and the consequences that it brings.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Ambition']">
@@ -81,9 +87,11 @@
             <html>
                 <head>
                     <title>Theme of Madness</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor Frankenstein experiences moments of madness throughout the novel. Due to him neglecting his mental and physical health for several months, he has multiple breakdowns throughout the novel.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Madness']">
@@ -104,9 +112,11 @@
             <html>
                 <head>
                     <title>Theme of Secrecy</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/> 
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/> 
                 </head>
                 <body>
+                    <h1>Theme Analysis</h1>
+                    <p>Victor Frankenstein withholds the true nature of his research and experiments from those around him. He never lets his family know the full extent of his knowledge, even when withholding that information hurts them.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Secrecy']">
@@ -128,7 +138,7 @@
             <html>
                 <head>
                     <title>Theme of Consequences of Creation</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -151,7 +161,7 @@
             <html>
                 <head>
                     <title>Theme of Obsession</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>  
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>  
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -176,7 +186,7 @@
             <html>
                 <head>
                     <title>Theme of Worry</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -199,7 +209,7 @@
             <html>
                 <head>
                     <title>Theme of Self Disgust</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -223,7 +233,7 @@
             <html>
                 <head>
                     <title>Theme of Rage</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -247,7 +257,7 @@
             <html>
                 <head>
                     <title>Theme of Misery</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/>
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
@@ -271,7 +281,7 @@
             <html>
                 <head>
                     <title>Theme of Illness</title>
-                    <link rel="stylesheet" type="text/css" href="../docs/frankenstein_basic.css"/> 
+                    <link rel="stylesheet" type="text/css" href="themepage.css"/> 
                 </head>
                 <body>
                     <h1>Occurrences of Theme</h1> 
