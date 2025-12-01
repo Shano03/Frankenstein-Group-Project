@@ -25,18 +25,26 @@
                         <div class="dropdown">
                             <a href="Themes.html">Themes</a>
                             <div class="dropdown-content">
-                                <a href="Guilt.html">Guilt</a>
-                                <a href="Isolation.html">Isolation</a>
-                                <a href="Ambition.html">Ambition</a>
-                                <a href="Madness.html">Madness</a>
-                                <a href="Secrecy.html">Secrecy</a>
-                                <a href="Consequences_Of_Creation.html">Consequences Of Creation</a>
-                                <a href="Obsession.html">Obsession</a>
-                                <a href="Worry.html">Worry</a>
-                                <a href="Self_Disgust.html">Self Disgust</a>
-                                <a href="Rage.html">Rage</a>
-                                <a href="Misery.html">Misery</a>
-                                <a href="Illness.html">Illness</a>
+                                <a href="frankenstein_xslt_guilt.html">Guilt</a>
+                                <a href="frankenstein_xslt_isolation.html">Isolation</a>
+                                <a href="frankenstein_xslt_ambition.html">Ambition</a>
+                                <a href="frankenstein_xslt_madness.html">Madness</a>
+                                <a href="frankenstein_xslt_secrecy.html">Secrecy</a>
+                                <a href="frankenstein_xslt_consequencesOfcreation.html">Consequences Of Creation</a>
+                                <a href="frankenstein_xslt_obsession.html">Obsession</a>
+                                <a href="frankenstein_xslt_worry.html">Worry</a>
+                                <a href="frankenstein_xslt_selfDisgust.html">Self Disgust</a>
+                                <a href="frankenstein_xslt_rage.html">Rage</a>
+                                <a href="frankenstein_xslt_misery.html">Misery</a>
+                                <a href="frankenstein_xslt_illness.html">Illness</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="analysis.html">Analysis</a>
+                            <div class="dropdown-content">
+                                <a href="patrick-svg3-output.html">Theme Occurrences Based on Chapter</a>
+                                <a href="Gaughan_exercise_3.html">Theme Occurrences Table Based on Volume</a>
+                                
                             </div>
                         </div>
                         <div><a href="Phillabaum_xslt_e.html">Full Text</a></div>
@@ -44,7 +52,7 @@
                         <div> <a href="team_page.html">Team Page</a></div>
                     </nav>
                     <h1>Theme Analysis Graphs</h1>
-                    <fo:block text-align="center">These graphs show the amount of times the themes appeared within the novel.</fo:block>
+                    <p>These graphs show the amount of times the themes appeared within the novel.</p>
                     <h2>Number of Analysis Words</h2>
                     <svg viewBox="0 0 1100 240">
                         <g transform="translate(250,10)">
