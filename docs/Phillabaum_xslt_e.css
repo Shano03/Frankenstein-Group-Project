@@ -8,11 +8,11 @@
 }
 
 .Ambition{
-    background-color: #CF0131; /* magenta */
+    background-color: #6B0001; /* maroon */
 }
 
 .Madness{
-    background-color: #790B0B; /* dark red */
+    background-color: #FF3103; /* dark red */
 }
 
 .Secrecy{
@@ -20,11 +20,11 @@
 }
 
 .Consequences_Of_Creation{
-    background-color: #007A1A; /* dark green */
+    background-color: #007A2B; /* dark mint green */
 }
 
 .Obsession{
-    background-color: #FE9900; /* light orange */
+    background-color: #FE9900; /* orange */
 }
 
 .Worry{
@@ -32,7 +32,7 @@
 }
 
 .Self_Disgust{
-    background-color: #86B220; /* yellow-green */
+    background-color: #28FF07; /* neon green */
 }
 
 .Rage{
@@ -44,7 +44,7 @@
 }
 
 .Illness{
-    background-color: #006C1E; /* dark green */
+    background-color: #739501; /* yellow green */
 }
 
 .Death{
@@ -82,8 +82,5 @@
     margin: auto;
 }
 
-body {
-  margin-top: 220px; /* adjust based on your SVG height */
-}
 
 

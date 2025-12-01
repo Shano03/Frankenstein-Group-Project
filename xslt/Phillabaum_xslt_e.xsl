@@ -33,25 +33,25 @@
                                 <text x="130" y="140" font-size="15" text-anchor="middle">Guilt</text>
                                 <circle cx="190" cy="100" r="20" fill="#49EB96" stroke="black"/>
                                 <text x="190" y="140" font-size="15" text-anchor="middle">Isolation</text>
-                                <circle cx="250" cy="100" r="20" fill="#CF0131" stroke="black"/>
+                                <circle cx="250" cy="100" r="20" fill="#6B0001" stroke="black"/>
                                 <text x="250" y="140" font-size="15" text-anchor="middle">Ambition</text>
-                                <circle cx="310" cy="100" r="20" fill="#790B0B" stroke="black"/>
+                                <circle cx="310" cy="100" r="20" fill="#FF3103" stroke="black"/>
                                 <text x="310" y="140" font-size="15" text-anchor="middle">Madness</text>
                                 <circle cx="370" cy="100" r="20" fill="#717070" stroke="black"/>
                                 <text x="370" y="140" font-size="15" text-anchor="middle">Secrecy</text>
-                                <circle cx="485" cy="100" r="20" fill="#007A1A" stroke="black"/>
+                                <circle cx="485" cy="100" r="20" fill="#007A2B" stroke="black"/>
                                 <text x="485" y="140" font-size="15" text-anchor="middle">Consequences Of Creation</text>
                                 <circle cx="610" cy="100" r="20" fill="#FE9900" stroke="black"/>
                                 <text x="610" y="140" font-size="15" text-anchor="middle">Obsession</text>
                                 <circle cx="670" cy="100" r="20" fill="#059FFF" stroke="black"/>
                                 <text x="670" y="140" font-size="15" text-anchor="middle">Worry</text>
-                                <circle cx="730" cy="100" r="20" fill="#86B220" stroke="black"/>
+                                <circle cx="730" cy="100" r="20" fill="#28FF07" stroke="black"/>
                                 <text x="730" y="140" font-size="15" text-anchor="middle">Self Disgust</text>
                                 <circle cx="790" cy="100" r="20" fill="#FF0303" stroke="black"/>
                                 <text x="790" y="140" font-size="15" text-anchor="middle">Rage</text>
                                 <circle cx="850" cy="100" r="20" fill="#07006C" stroke="black"/>
                                 <text x="850" y="140" font-size="15" text-anchor="middle">Misery</text>
-                                <circle cx="910" cy="100" r="20" fill="#006C1E" stroke="black"/>
+                                <circle cx="910" cy="100" r="20" fill="#739501" stroke="black"/>
                                 <text x="910" y="140" font-size="15" text-anchor="middle">Illness</text>
                                 <circle cx="970" cy="100" r="20" fill="#000000" stroke="black"/>
                                 <text x="970" y="140" font-size="15" text-anchor="middle">Death</text>
