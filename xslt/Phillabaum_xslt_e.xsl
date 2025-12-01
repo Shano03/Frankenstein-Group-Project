@@ -22,9 +22,11 @@
                         <!-- Serves as the title to the webpage -->
                         <title>Frankenstein</title>
                         <!-- Links the css file to the the xslt file so the output shows the colors chosen for the elements below -->
-                        <a href="index.html">Back to Home Page</a>
                         <link rel="stylesheet" type="text/css" href="Phillabaum_xslt_e.css"/>
+                    </head>
+                    <body>
                         <div id="theme-guide">
+                            <a href="index.html">Back to Home Page</a>
                             <svg width="4000" height="200">
                                 <text x="665" y="190" font-size="30" text-anchor="middle">Color Guide for Themes</text>
                                 <circle cx="130" cy="100" r="20" fill="#340058" stroke="black"/>
@@ -63,9 +65,9 @@
                                 <text x="1210" y="140" font-size="15" text-anchor="middle">Characters</text>
                             </svg>
                         </div>
-                    </head>
-                    <body>
+                        
                         <!-- For each volume within the $fullText variable the letter and ch elements should be surrounded by p tags for spacing within the output between the letters and chapters -->
+                        
                         <xsl:for-each select=".//volume">
                             <xsl:apply-templates/>
                         </xsl:for-each>

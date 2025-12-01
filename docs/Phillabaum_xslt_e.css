@@ -81,3 +81,9 @@
     display: block;
     margin: auto;
 }
+
+body {
+  margin-top: 220px; /* adjust based on your SVG height */
+}
+
+
