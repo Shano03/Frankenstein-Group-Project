@@ -1,68 +1,83 @@
 
 .Guilt{
-    color: #340058; /* dark purple */
+    background-color: #340058; /* dark purple */
 }
 
 .Isolation{
-    color: #49EB96; /* light teal */
+    background-color: #49EB96; /* light teal */
 }
 
 .Ambition{
-    color: #CF0131; /* magenta */
+    background-color: #CF0131; /* magenta */
 }
 
 .Madness{
-    color: #790B0B; /* dark red */
+    background-color: #790B0B; /* dark red */
 }
 
 .Secrecy{
-    color: #717070; /* gray */
+    background-color: #717070; /* gray */
 }
 
 .Consequences_Of_Creation{
-    color: #007A1A; /* dark green */
+    background-color: #007A1A; /* dark green */
 }
 
 .Obsession{
-    color: #FE9900; /* light orange */
+    background-color: #FE9900; /* light orange */
 }
 
 .Worry{
-    color: #059FFF; /* light blue */
+    background-color: #059FFF; /* light blue */
 }
 
 .Self_Disgust{
-    color: #86B220; /* yellow-green */
+    background-color: #86B220; /* yellow-green */
 }
 
 .Rage{
-    color: #FF0303; /* red */
+    background-color: #FF0303; /* red */
 }
 
 .Misery{
-    color: #07006C; /* dark blue */
+    background-color: #07006C; /* dark blue */
 }
 
 .Illness{
-    color: #006C1E; /* dark green */
+    background-color: #006C1E; /* dark green */
 }
 
 .Death{
-    color: #472201; /* brown */
+    background-color: #000000; /* black */
+    color: #FFFFFF; /* white text */
 }
 
 .Depression{
-    color: #5F597D; /* pale blue */
+    background-color: #5F597D; /* pale blue */
 }
 
 .Fear{
-    color: #B963A3; /* light pink */
+    background-color: #B963A3; /* light pink */
 }
 
 .place{
-    color: #EAE010; /* yellow */
+    background-color: #EAE010; /* yellow */
 }
 
 .char{
-    color: #3411FF; /* bright blue */
+    background-color: #3411FF; /* bright blue */
+}
+
+#theme-guide {
+    position: fixed;   /* stays in place */
+    top: 0;            /* sticks to the top of the viewport */
+    left: 0;
+    width: 100%;       /* span across the page */
+    background: white; /* optional: background so text doesn’t overlap */
+    z-index: 1000;     /* ensures it stays above other content */
+}
+
+#theme-guide svg {
+    display: block;
+    margin: auto;
 }
