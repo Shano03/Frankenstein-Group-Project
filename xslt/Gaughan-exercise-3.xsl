@@ -42,8 +42,8 @@
                         <div class="dropdown">
                             <a href="analysis.html">Analysis</a>
                             <div class="dropdown-content">
-                                <a href="patrick-svg3-output.html">Theme Occurrences Based on Chapter</a>
-                                <a href="Gaughan_exercise_3.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="Gaughan_exercise_3.html">Theme Occurrences Based on Chapter</a>
+                                <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
                                 
                             </div>
                         </div>
