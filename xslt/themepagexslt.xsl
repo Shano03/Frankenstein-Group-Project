@@ -14,6 +14,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -70,6 +73,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>  
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -127,6 +133,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -183,6 +192,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -239,6 +251,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/> 
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -296,6 +311,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -352,6 +370,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>  
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -410,6 +431,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -466,6 +490,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -523,6 +550,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -580,6 +610,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/>
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
@@ -637,6 +670,9 @@
                     <link rel="stylesheet" type="text/css" href="themepage.css"/> 
                 </head>
                 <body>
+                    <a href="index.html">
+                        <h1>Frankenstein Mental Analysis</h1>
+                    </a>
                     <nav>
                         <div><a href="index.html">Homepage</a></div>
                         <div class="dropdown">
