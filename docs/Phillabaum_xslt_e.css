@@ -1,6 +1,7 @@
 
 .Guilt{
     background-color: #340058; /* dark purple */
+    color: #FFFFFF; /* white text */
 }
 
 .Isolation{
@@ -9,14 +10,16 @@
 
 .Ambition{
     background-color: #6B0001; /* maroon */
+    color: #FFFFFF; /* white text */
 }
 
 .Madness{
-    background-color: #FF3103; /* dark red */
+    background-color: #FF3103; /* orange */
 }
 
 .Secrecy{
     background-color: #717070; /* gray */
+    color: #FFFFFF; /* white text */
 }
 
 .Consequences_Of_Creation{
@@ -37,10 +40,12 @@
 
 .Rage{
     background-color: #FF0303; /* red */
+    color: #FFFFFF; /* white text */
 }
 
 .Misery{
     background-color: #07006C; /* dark blue */
+    color: #FFFFFF; /* white text */
 }
 
 .Illness{
@@ -53,19 +58,22 @@
 }
 
 .Depression{
-    background-color: #5F597D; /* pale blue */
+    background-color: #FF0389; /* pink */
 }
 
 .Fear{
-    background-color: #B963A3; /* light pink */
+    background-color: #A00155; /* dark pink */
+    color: #FFFFFF; /* white text */
 }
 
 .place{
     background-color: #EAE010; /* yellow */
+    color: #000000; /* black text */
 }
 
 .char{
     background-color: #3411FF; /* bright blue */
+    color: #FFFFFF; /* white text */
 }
 
 #theme-guide {

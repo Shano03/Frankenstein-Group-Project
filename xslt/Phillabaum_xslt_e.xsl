@@ -55,9 +55,9 @@
                                 <text x="910" y="140" font-size="15" text-anchor="middle">Illness</text>
                                 <circle cx="970" cy="100" r="20" fill="#000000" stroke="black"/>
                                 <text x="970" y="140" font-size="15" text-anchor="middle">Death</text>
-                                <circle cx="1030" cy="100" r="20" fill="#5F597D" stroke="black"/>
+                                <circle cx="1030" cy="100" r="20" fill="#FF0389" stroke="black"/>
                                 <text x="1030" y="140" font-size="15" text-anchor="middle">Depression</text>
-                                <circle cx="1090" cy="100" r="20" fill="#B963A3" stroke="black"/>
+                                <circle cx="1090" cy="100" r="20" fill="#A00155" stroke="black"/>
                                 <text x="1090" y="140" font-size="15" text-anchor="middle">Fear</text>
                                 <circle cx="1150" cy="100" r="20" fill="#EAE010" stroke="black"/>
                                 <text x="1150" y="140" font-size="15" text-anchor="middle">Places</text>
