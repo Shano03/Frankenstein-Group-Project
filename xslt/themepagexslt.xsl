@@ -466,7 +466,7 @@
                         <div> <a href="team_page.html">Team Page</a></div>
                     </nav>
                     <h1>Theme Analysis: Worry</h1>
-                    <p>Victor Frankenstein worries about the damage that his creation will do. Victor also experiences increasing guilt and fear over the consequences of his creation. This constant and high anxiety leads to Victor's mental decline throughout the novel. </p>
+                    <p>Victor Frankenstein worries about the damage that his creation will do. Victor also experiences increasing guilt, fear, and paranoia over the consequences of his creation. This constant and high anxiety leads to Victor's mental decline throughout the novel. </p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Worry']">
@@ -585,7 +585,7 @@
                         <div> <a href="team_page.html">Team Page</a></div>
                     </nav>
                     <h1>Theme Analysis: Rage</h1>
-                    <p>Both the monster and Victor seek revenge fueled by rage. The monster feels rage due to his constant isolation and seeks revenge on the person who created him. Victor seeks revenge on the monster due to the rage he felt when the monster murdered hsi family. </p>
+                    <p>Both the monster and Victor seek revenge fueled by rage. The monster feels rage due to his constant isolation and seeks revenge on the person who created him. Victor seeks revenge on the monster due to the rage he felt when the monster murdered his family. </p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Rage']">
@@ -705,7 +705,7 @@
                         <div> <a href="team_page.html">Team Page</a></div>
                     </nav>
                     <h1>Theme Analysis: Illness</h1>
-                    <p>The monster experienced illness when he was trying to figure out how to survive on his own. Victor Frankenstein experienced mental illness throughout the novel including anxiety and depression.</p>
+                    <p>The monster experiences illness when he is trying to figure out how to survive on his own. Victor Frankenstein experiences physical illness, as well as mental illness throughout the novel including anxiety and depression.</p>
                     <h1>Occurrences of Theme</h1> 
                     
                     <xsl:for-each select= "//analysis_Phrase[@theme= 'Illness']">
