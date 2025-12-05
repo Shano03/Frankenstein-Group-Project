@@ -62,7 +62,7 @@
                                 <xsl:variable name="word-count" select="count(current-group())"/>
                                 <xsl:variable name="word-sequence" select="position()"/>
                                     
-                                    <line x1="0" x2="{$xspacer * $word-count}" y1="{($yspacer * $word-sequence) - 5}" y2="{$yspacer * $word-sequence}" stroke-width="10" stroke="purple"/>
+                                    <line x1="0" x2="{$xspacer * $word-count}" y1="{($yspacer * $word-sequence) - 5}" y2="{($yspacer * $word-sequence) - 5}" stroke-width="10" stroke="purple"/>
                                 
                                 <text x="-10" y="{$yspacer * $word-sequence}" text-anchor="end" stroke="black" fill="white" stroke-width="0.1"><xsl:value-of select="$word-sequence"/><xsl:text>: </xsl:text> <xsl:apply-templates select="string()[1]"/></text>
                                 <text x="{$xspacer * $word-count + 10}" y="{$yspacer * $word-sequence}" text-anchor="right" stroke="black" fill="white" stroke-width="0.1"><xsl:value-of select="$word-count"/></text>
