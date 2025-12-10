@@ -20,7 +20,7 @@
                         <tr><th>Chapter</th><th>Phrase Themes</th><th>Word Themes</th></tr>
                         
                         <xsl:for-each select="//ch"> 
-                            <tr><td><span class="chapter"><xsl:apply-templates select= "count(preceding::ch)+1" /> </span></td><td><span class="phrase"><xsl:apply-templates select= ".//analysis_Phrase/@theme=>string-join('; ')"/></span></td><td><span class="word"><xsl:apply-templates select= ".//analysis_Word/@theme=>string-join('; ')"/></span></td></tr> <!--ap: i used span and class to allow coloring in my css-->
+                            <tr><td><span class="chapter"><xsl:apply-templates select= "chapterName" /> </span></td><td><span class="phrase"><xsl:apply-templates select= ".//analysis_Phrase/@theme=>string-join('; ')"/></span></td><td><span class="word"><xsl:apply-templates select= ".//analysis_Word/@theme=>string-join('; ')"/></span></td></tr> <!--ap: i used span and class to allow coloring in my css-->
                         </xsl:for-each> <!--ap: i split the phrases and words up because i wasn't sure how to put them together. i can always change that if i can figure it out -->
                         
                     </table> 
