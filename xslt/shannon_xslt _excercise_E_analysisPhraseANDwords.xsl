@@ -13,7 +13,7 @@
             <xsl:result-document method="xhtml" indent="yes" href="frankensteinanalysisphraseNEW.html">
             <html>
             <head><title>The Mental Deterioration of Victor Frankenstein</title> <!--title of page-->
-               <link rel="stylesheet" type="text/css" href="frankenstein_basic.css"/><!--linked to css style sheet-->
+                <link rel="stylesheet" type="text/css" href="frankenstein_table_css.css"/><!--linked to css style sheet-->
             </head>
             <body>
                 <h2>The Mental Deterioration of Victor Frankenstein</h2> <!-- header -->
