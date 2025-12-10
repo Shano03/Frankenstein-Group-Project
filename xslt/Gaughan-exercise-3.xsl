@@ -70,7 +70,8 @@
                             </xsl:for-each-group> 
                             <line x1="0" y1="0" x2="0" y2="{count(//ch//p//analysis_Word)=>distinct-values() * $yspacer}" stroke="black" stroke-width="1"/>
                         </g>
-                    </svg>            
+                    </svg>     
+                    <p class="graphbox">The graph shown above analyzes the themes throughout the novel by word choice. It higlights that Misery is the most prevalent theme throughout the novel followed by Rage and Depression, emphasizing the novel's dark tone.</p>
                                     <h2>Number of Analysis Phrases by Themes</h2>
                  
                                     <svg viewBox="0 0 1100 300">
@@ -104,6 +105,7 @@
                                             
                                         </g>
                                     </svg>
+                    <p class="graphbox"> The graph shown above analyzes the theme of the novel by phrases. This graph shows that Guilt is the most prominent theme followed by Consequences of Creation and Misery. These themes display Victor Frankenstein's internalized self-conflict.</p>
                 </body>
             </html>
         </xsl:result-document>

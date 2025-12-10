@@ -183,3 +183,15 @@ ul
     
     
 }
+/* Boxes for text on graph page */
+.graphbox{
+padding: 10px;
+border: 5px solid white;
+margin: 50px;
+}
+/* image centering */
+.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
