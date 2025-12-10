@@ -41,6 +41,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -100,6 +101,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -160,6 +162,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -219,7 +222,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
-                                
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                             </div>
                         </div>
                         <div><a href="Phillabaum_xslt_e.html">Full Text</a></div>
@@ -278,6 +281,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -338,6 +342,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -397,6 +402,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -458,6 +464,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -517,6 +524,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -577,7 +585,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
-                                
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                             </div>
                         </div>
                         <div><a href="Phillabaum_xslt_e.html">Full Text</a></div>
@@ -637,6 +645,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -697,6 +706,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>

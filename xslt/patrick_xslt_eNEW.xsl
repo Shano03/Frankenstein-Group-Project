@@ -6,8 +6,7 @@
     version="3.0">
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat" omit-xml-declaration="yes"/>
     <xsl:variable name="frankensteinText" select="document('../xml/frankensteinmergefix.xml')"/>
-    <xsl:variable name="xspacer" select="20" />
-    <xsl:variable name="yspacer" select="15" />
+    
     <xsl:template match="$frankensteinText">
         <xsl:result-document method="xhtml" indent="yes" href="../docs/patrick_xslt_eNEW.html">
             <html>
@@ -43,6 +42,7 @@
                             <div class="dropdown-content">
                                 <a href="Gaughan_exercise_3.html">Theme Occurrences Graphs</a>
                                 <a href="frankensteinanalysisphraseNEW.html">Theme Occurrences Table Based on Volume</a>
+                                <a href="patrick_xslt_eNEW.html">Theme Occurrences Based On Chapter</a>
                                 
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                     
                     
                     <!--creates and colors the graph key-->
-                    <p> <span style="background-color: red; color: black;">Guilt     </span> 
+                    <p class="center"> <span style="background-color: red; color: black;">Guilt     </span> 
                       <span style="background-color: white; color: black;">Ambition     </span>
                         <span style="background-color: #5BFE42; color: black;">Madness     </span>
                         <span style="background-color: yellow; color: black;">Secrecy     </span>
@@ -66,7 +66,7 @@
                         <span style="background-color: #FF8346; color: black;">Illness     </span></p>
                     
                     <!-- universal variables-->
-                    <xsl:variable name="xspacer" select="5"/>
+                    <xsl:variable name="xspacer" select="35"/>
                     <xsl:variable name="yspacer" select="15"/>
                     <svg viewBox="0 0 1000 450">
                         <g transform="translate(150,10)">
