@@ -71,6 +71,7 @@
                         </tr>
                     </xsl:for-each-group>
                 </table>
+                <p>Throughout the novel, Victor Frankenstein experiences many different mental changes as he is faced with the consequences of his scientific pursuits. For example, themes of Rage are not present in Volume 1, but appear in Volume 2 and increase in frequency in Volume 3. Guilt also appears more frequently as the novel progresses. Obsession appears in Volume 1, but stops appearing after the Monster's creation. These are just a few examples of how Frankenstein's mental wellbeing fluctuates between volumes.</p>
                 
               
                 
