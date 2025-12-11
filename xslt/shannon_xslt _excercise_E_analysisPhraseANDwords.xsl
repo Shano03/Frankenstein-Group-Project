@@ -10,7 +10,7 @@
             
         
         <xsl:template match="$frankensteinproject">
-            <xsl:result-document method="xhtml" indent="yes" href="frankensteinanalysisphraseNEW.html">
+            <xsl:result-document method="xhtml" indent="yes" href="../docs/frankensteinanalysisphraseNEW.html">
             <html>
             <head><title>The Mental Deterioration of Victor Frankenstein</title> <!--title of page-->
                 <link rel="stylesheet" type="text/css" href="frankenstein_table_css.css"/><!--linked to css style sheet-->
@@ -18,11 +18,21 @@
             <body>
                 <h2>The Mental Deterioration of Victor Frankenstein</h2> <!-- header -->
                 <table>
-                    <tr><td>Theme</td><td>Theme Frequency</td></tr> <!-- categories of the table -->
+                    <tr><td>Theme</td><td>Theme Frequency</td>
+                        <td>Volume 1</td> <td>Volume 2</td><td>Volume 3</td></tr> <!-- categories of the table -->
                     <xsl:for-each-group select="//*[@theme]" group-by="@theme"> <!-- collecting theme data from xml -->
-                        <xsl:sort select="count(current-group())" order="descending"/> 
+                       
+                 <xsl:sort select="count(current-group())" order="descending"/> 
+                        <xsl:variable name="current-theme" select="@theme"/>
                         <tr>
-                            <td><xsl:value-of select="@theme"/></td><td><xsl:value-of select="count(current-group())"/></td><!-- counting number of occurances of themes -->
+                            <td><xsl:value-of select="@theme!replace(.,'_',' ')"/></td><td><xsl:value-of select="count(current-group())"/></td><xsl:for-each select="//volume">
+                                <td>
+                                    <xsl:value-of select=".//p/*[@theme=$current-theme]=>count()"/> 
+                                </td>
+                                
+                                
+                            </xsl:for-each>
+                            <!-- counting number of occurances of themes -->
                         </tr>
                     </xsl:for-each-group>
                 </table>
