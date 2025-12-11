@@ -1,7 +1,6 @@
 /* Set background and text color for the body */
 body 
 {
-
     background: #000000; /* black placeholder background */
     background-image: url('images/lightning_background_withsquare.png');
     background-size: cover; /* Sizes the image to fill the entire container */
@@ -10,15 +9,6 @@ body
     margin-left: 2cm; /* Remove default margin */
     padding: 0; /* Remove default padding */
     height: 100%; /* Ensure the body and html take up the full height of the page */
-  .yay
-  {
-  display: flex;
-  justify-content: center;
-  
-
-    
-  
-
     
 }
 
@@ -27,7 +17,6 @@ a
 {
     text-decoration: underline; /* Removes underline */
     color: #ffffff; /* Sets text color */
-    
 }
 
 /* Nav bar styling */
@@ -38,8 +27,6 @@ nav
     display: flex; /* Use flexbox to center the nav items */
     justify-content: center; /* Center nav items horizontally */
     align-items: center; /* Align nav items vertically */
-    
-    
 }
 
     /* Ensure nav items are displayed inline to prevent breaking to a new line */
@@ -47,7 +34,6 @@ nav
     {
         padding: 12px 30px; /* Padding for nav items */
         align-items: center; /* Vertically center the content */
-        
     }
 
     /* Nav links styling */
@@ -108,19 +94,15 @@ p
     padding-right: 100px; /* Adds space to the right for all lines */
     max-width: 1500px;   /* Limits the width of the text for wrapping */
     font-size: 20px; /* Set font size */
-    
-    
-    
 }
 
 /* List styling */
 ul
 {
-    padding-left: 100px;  /* Adds space to the left for all lines */
+    padding-left: 200px;  /* Adds space to the left for all lines */
     padding-right: 100px; /* Adds space to the right for all lines */
     max-width: 1500px;   /* Limits the width of the text for wrapping */
     font-size: 20px; /* Set font size */
-    
 }
 
 /* Container for the team members */
@@ -132,8 +114,6 @@ ul
     margin: 10px auto; /* Reduce top and bottom margin to bring it closer to the header */
     max-width: 800px; /* Optional: Limit the container width */
     text-align: left; /* Align text to the left */
-    
-    
 }
 
 /* Individual team member styling */
@@ -208,7 +188,6 @@ ul
 padding: 10px;
 border: 5px solid white;
 margin: 50px;
-
 }
 /* image centering */
 .middle {
